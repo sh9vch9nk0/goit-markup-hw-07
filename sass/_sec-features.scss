@@ -1,0 +1,38 @@
+/*sec-features*/
+.sec-features {
+  &__about {
+    color: var(--grey);
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+  }
+  &__card {
+    width: 270px;
+  }
+  &__card > .icon {
+    background-color: var(--light-grey);
+    margin-bottom: 30px;
+  }
+  &__icon {
+    height: 70px;
+    width: 70px;
+  }
+  &__icon-container {
+    align-items: center;
+    background-color: var(--light-grey);
+    border-radius: 4px;
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+  &__name {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,34 @@
+/*sec-activities*/
+.activities {
+  display: flex;
+  gap: 30px;
+  &__descr {
+    background-color: rgba(47, 48, 58, 0.8);
+    bottom: 0;
+    height: 70px;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+  }
+  &__descr-text {
+    color: var(--white);
+    font-family: var(--font);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 16px;
+    margin: 0;
+    padding: 27px 0px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__img {
+    height: 294px;
+    width: 370px;
+  }
+  &__item {
+    position: relative;
+  }
+}
+.sec-activities {
+  padding-top: 0;
+}
