@@ -88,10 +88,6 @@ ul {
   top: 8px;
   width: 30px;
 }
-.contacts {
-  background-color: var(--accent-background);
-  padding: 60px 0px;
-}
 .container {
   margin: 0 auto;
   padding-left: 15px;
@@ -100,25 +96,6 @@ ul {
 }
 .features {
   gap: 30px;
-}
-.followership {
-  color: var(--white);
-  font-weight: 700;
-  line-height: 1.14;
-  margin-bottom: 20px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-.footer.container {
-  align-items: baseline;
-  display: flex;
-  gap: 70px;
-}
-.footer-link {
-  display: block;
-}
-.footer-link:not(:last-child) {
-  margin-bottom: 9px;
 }
 .grey {
   color: var(--grey);
@@ -146,31 +123,10 @@ ul {
   background-color: var(--light-grey);
   border-color: var(--light-grey);
 }
-.link {
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  transition: color 250ms var(--timing-function);
-}
-.link:hover,
-.link:focus {
-  color: var(--accent-blue);
-}
 .list {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-.logo-footer {
-  display: block;
-  color: var(--white);
-  font-size: 26px;
-  font-weight: 700;
-  font-family: var(--font-logo);
-  margin-bottom: 20px;
-  text-decoration: none;
-  width: 200px;
 }
 .menu {
   display: flex;
@@ -405,59 +361,6 @@ ul {
 .terms-link {
   color: var(--accent-blue);
 }
-/* subscribe */
-.footer-subheading {
-  color: var(--white);
-  display: inline-block;
-  font-weight: 700;
-  margin-bottom: 20px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-.submit-btn {
-  align-items: center;
-  background-color: var(--accent-blue);
-  border: none;
-  border-radius: 4px;
-  color: var(--white);
-  cursor: pointer;
-  display: flex;
-  font-size: 16px;
-  font-weight: 700;
-  gap: 10px;
-  justify-content: center;
-  letter-spacing: 0.06em;
-  min-width: 200px;
-  padding: 10px 28px;
-}
-.subscribe {
-  margin-right: 0;
-  margin-left: auto;
-}
-.subscribe-container {
-  display: flex;
-  gap: 10px;
-}
-.subscribe-input {
-  background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  color: var(--white);
-  display: block;
-  height: 50px;
-  padding: 15px;
-  width: 358px;
-}
-.subscribe-input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-}
-.telegram {
-  display: inline;
-  height: 24px;
-  width: 24px;
-}
-
 /*header*/
 .nav__link--active {
   color: var(--accent-blue);
@@ -765,4 +668,100 @@ ul {
 .clients__link:focus {
   border-color: var(--accent-blue);
   color: var(--accent-blue);
+}
+/*footer*/
+.address__contact {
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  transition: color 250ms var(--timing-function);
+}
+.address__contact:hover,
+.address__contact:focus {
+  color: var(--accent-blue);
+}
+.address__link {
+  display: block;
+}
+.address__link:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer {
+  background-color: var(--accent-background);
+  padding: 60px 0px;
+}
+.footer__container {
+  align-items: baseline;
+  display: flex;
+  gap: 70px;
+}
+.footer__logo {
+  display: block;
+  color: var(--white);
+  font-size: 26px;
+  font-weight: 700;
+  font-family: var(--font-logo);
+  margin-bottom: 20px;
+  text-decoration: none;
+  width: 200px;
+}
+.footer__followership {
+  color: var(--white);
+  font-weight: 700;
+  line-height: 1.14;
+  margin-bottom: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footer__subheading {
+  color: var(--white);
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footer__subscribe {
+  margin-right: 0;
+  margin-left: auto;
+}
+.subscribe {
+  display: flex;
+  gap: 10px;
+}
+.subscribe__input {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: var(--white);
+  display: block;
+  height: 50px;
+  padding: 15px;
+  width: 358px;
+}
+.subscribe__input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+}
+.submit-btn {
+  align-items: center;
+  background-color: var(--accent-blue);
+  border: none;
+  border-radius: 4px;
+  color: var(--white);
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  gap: 10px;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  min-width: 200px;
+  padding: 10px 28px;
+}
+.submit-btn__img {
+  display: inline;
+  height: 24px;
+  width: 24px;
 }
