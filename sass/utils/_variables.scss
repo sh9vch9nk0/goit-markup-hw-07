@@ -1,0 +1,34 @@
+:root {
+    --accent-blue: #2196f3;
+    --accent-background: #2f303a;
+    --black: #000;
+    --black-heading: #212121;
+    --font: "Roboto", Arial, sans-serif;
+    --font-logo: "Raleway", Arial, sans-serif;
+    --grey: #757575;
+    --icon: #afb1b8;
+    --light-grey: #f5f4fa;
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --white: #fff;
+  }
+  .active {
+    color: var(--accent-blue);
+  }
+  .black-heading {
+    color: var(--black-heading);
+  }
+  .blue {
+    background-color: var(--accent-blue);
+    border-color: var(--accent-blue);
+  }
+  .grey {
+    color: var(--grey);
+  }
+  .light-grey {
+    background-color: var(--light-grey);
+    border-color: var(--light-grey);
+  }
+  .white {
+    color: var(--white);
+  }
+  
